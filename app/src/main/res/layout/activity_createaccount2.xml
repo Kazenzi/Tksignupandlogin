@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".createaccountActivity2">
+    tools:context=".createaccountActivity2"
+    android:background="@drawable/back2">
 
     <TextView
         android:id="@+id/textView5"
@@ -65,13 +66,12 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="SignUp"
+        android:layout_marginTop="76dp"
         android:backgroundTint="#000000"
+        android:text="SignUp"
         android:textColor="#ffffff"
         android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 </androidx.constraintlayout.widget.ConstraintLayout>

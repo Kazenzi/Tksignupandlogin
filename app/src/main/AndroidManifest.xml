@@ -13,6 +13,20 @@
         android:theme="@style/Theme.TKloginandsignup"
         tools:targetApi="31">
         <activity
+            android:name=".HomeMainActivity2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ForgotPasswordActivity2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".createaccountActivity2"
             android:exported="false">
             <meta-data
